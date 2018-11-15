@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Cabin");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: "Cabin", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   color: #333;
@@ -58,6 +58,7 @@ body {
 
 .header-content h1 {
   font-size: 50px;
+  font-weight: 600;
   margin-bottom: 0;
 }
 
@@ -73,6 +74,19 @@ body {
   font-size: 1.2rem;
   padding: 1rem 2rem;
   text-decoration: none;
+}
+
+.section {
+  padding: 20px 0;
+}
+
+.section h2 {
+  font-size: 2rem;
+}
+
+.section-b {
+  background: #333;
+  color: #fff;
 }
 
 @media (max-width: 960px) {
